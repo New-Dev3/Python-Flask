@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Flask App - About</title>
+</head>
+<body>
+    <h1>About</h1>
+    <p>This is a simple Flask application that demonstrates how to create a basic web app using Flask.</p>
+    <p>Feel free to <a href="/contact">contact us</a> if you have any questions.</p>
+</body>
+</html>
+
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>About Us</h1>
+    <button onclick="myFunction()">Show Paragraph</button>
+    <p id="mypara" style="display: none">I am a paragraph</p>
+{% endblock %}
+
+{% block scripts %}
+    <script>
+        function myFunction() {
+            var x = document.getElementById("mypara");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+    </script>
+{% endblock %}
+
