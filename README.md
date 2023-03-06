@@ -19,7 +19,7 @@ This is a simple Flask application that demonstrates how to create a basic web a
 
 ## Contributing
 
-If you would like to contribute to this project, please fork the repository and submit a pull request. See the `[LICENSE](https://github.com/New-Dev3/Python-Flask/blob/main/CONTRIBUTING.md)` file for details.
+If you would like to contribute to this project, please fork the repository and submit a pull request. See the [CONTRIBUTING](https://github.com/New-Dev3/Python-Flask/blob/main/CONTRIBUTING.md) file for details.
 
 ## Credits
 
